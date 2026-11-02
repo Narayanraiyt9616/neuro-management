@@ -1,0 +1,29 @@
+{
+  "name": "biznexus",
+  "version": "1.0.0",
+  "private": true,
+  "description": "BizNexus – Smart Business Management System (TypeScript Edition)",
+  "scripts": {
+    "start": "npm run dev:server",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "build:server": "cd server && npm run build",
+    "build:client": "cd client && npm run build",
+    "build": "npm run build:server && npm run build:client",
+    "typecheck:server": "cd server && npm run typecheck",
+    "typecheck:client": "cd client && npm run typecheck",
+    "typecheck": "npm run typecheck:server && npm run typecheck:client",
+    "test:server": "cd server && npm run test",
+    "test": "npm run test:server"
+  },
+  "keywords": [
+    "saas",
+    "business-management",
+    "multi-tenant",
+    "react19",
+    "express",
+    "mongodb",
+    "typescript"
+  ],
+  "author": "BizNexus Team"
+}
